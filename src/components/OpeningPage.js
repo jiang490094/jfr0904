@@ -105,7 +105,7 @@ function OpeningPage(props) {
   return (
     <>
       <div className="OpeningPage">
-        <img src="./jfr0904/2513419.jpg" alt="背景" className="BccP1" />
+        <img src="./jiang490094.github.io/jfr0904/2513419.jpg" alt="背景" className="BccP1" />
 
         <button className="DisappearingButton" onClick={() => setWhichSVG(1)}>
           <img
