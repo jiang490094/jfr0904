@@ -1,7 +1,12 @@
 import React from "react";
+import MyNavbar from "./common/MyNavbar";
 
 function AboutMe(props) {
-  return <>123</>;
+  return (
+    <>
+      <MyNavbar />
+    </>
+  );
 }
 
 export default AboutMe;
