@@ -105,16 +105,16 @@ function OpeningPage(props) {
   return (
     <>
       <div className="OpeningPage">
-        <img src="./jfr0904/2513419.jpg" alt="背景" className="BccP1" />
+        <img src="./2513419.jpg" alt="背景" className="BccP1" />
 
         <button className="DisappearingButton" onClick={() => setWhichSVG(1)}>
           <img
-            src="./jfr0904/mouse.png"
+            src="./mouse.png"
             alt="主角倉鼠"
             className="MouseP1 animate__bounceInDown animate__animated"
           />
           <img
-            src="./jfr0904/giphy2.gif"
+            src="./giphy2.gif"
             alt="點我"
             className="ClickP1 animate__animated animate__fadeIn"
             show={false}

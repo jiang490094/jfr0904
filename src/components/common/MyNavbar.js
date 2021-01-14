@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import {
   Navbar,
   Nav,
@@ -12,7 +13,7 @@ function MyNavbar(props) {
   return (
     <>
       <div className="WebBack">
-        <Navbar className="Nav0"  expand="lg">
+        <Navbar className="Nav0" expand="lg">
           <div className="container Nav1">
             <div className="row">
               <div>
@@ -31,18 +32,23 @@ function MyNavbar(props) {
                 <Navbar.Collapse id="basic-navbar-nav">
                   <Nav className="mr-auto">
                     <Nav.Link
+                      as={NavLink}
                       style={{ color: "#41416e" }}
-                      href="/jfr0904/AboutMe"
+                      to="/jfr0904/AboutMe"
                     >
                       About
                     </Nav.Link>
                     <Nav.Link
+                      as={NavLink}
                       style={{ color: "#41416e" }}
-                      href="/jfr0904/Portfolio"
+                      to="/jfr0904/Portfolio"
                     >
                       Portfolio
                     </Nav.Link>
-                    <Nav.Link style={{ color: "#41416e" }} href="/jfr0904/Resume">
+                    <Nav.Link
+                      style={{ color: "#41416e" }}
+                      href="/jfr0904/Resume"
+                    >
                       Resume
                     </Nav.Link>
                     <Nav.Link
@@ -59,10 +65,10 @@ function MyNavbar(props) {
         </Navbar>
       </div>
       <img
-            src="./mouse.png"
-            alt="主角倉鼠"
-            className="MouseBlog animate__bounceInDown animate__animated"
-          />
+        src="./mouse.png"
+        alt="主角倉鼠"
+        className="MouseBlog animate__bounceInDown animate__animated"
+      />
     </>
   );
 }
