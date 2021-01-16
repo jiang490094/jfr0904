@@ -19,7 +19,7 @@ function MyNavbar(props) {
           <div className="row">
             <div className="Nav2">
               <img
-                src="./tumblr_per90kGERz1wzvjnmo1_400.gif"
+                src="/jfr0904/tumblr_per90kGERz1wzvjnmo1_400.gif"
                 alt="動動倉鼠"
                 className="MoveNav"
               />

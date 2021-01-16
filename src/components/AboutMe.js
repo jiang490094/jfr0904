@@ -13,7 +13,6 @@ import {
 } from "react-bootstrap";
 
 function AboutMe(props) {
-  
   return (
     <>
       <div className="WebBack">
@@ -68,7 +67,7 @@ function AboutMe(props) {
             </div>
           </div>
         </main>
-        
+
         <MyFooter />
       </div>
     </>
@@ -76,4 +75,3 @@ function AboutMe(props) {
 }
 
 export default withRouter(AboutMe);
-

@@ -29,7 +29,7 @@ function App(props) {
             <Route path="/jfr0904/Resume">
               <Resume />
             </Route>
-            <Route exact path="/jfr0904/Contact">
+            <Route path="/jfr0904/Contact">
               <Contact />
             </Route>
             <Route path="/jfr0904/Autobiography">
