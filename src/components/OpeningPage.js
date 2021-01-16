@@ -125,45 +125,6 @@ function OpeningPage(props) {
         {whichSVG === 2 ? svg2 : ""}
         {whichSVG === 3 ? svg3 : ""}
         {whichSVG === 4 ? svg4 : ""}
-        {/* {show ? (
-          <div className="TalkBox2 animate__animated animate__fadeIn">
-            <p>
-              Hi~ 我是一隻前端倉鼠，
-              <br />
-              在當前端工程師前的名字是Leona，
-              <br />
-              在LINE TAXI當過行銷人員。
-              <br />
-              你願意聽聽我從行銷人種變成
-              <br />
-              前端倉鼠的故事嗎？
-              <br />
-            </p>
-            <div className="BtnsP1">
-              <Button
-                variant="outline-danger"
-                onClick={() => {
-                  document.querySelector(".TalkBox2>p").innerHTML =
-                    "不要這樣嘛QQ~看一下~看一下啦~";
-                }}
-              >
-                不願意
-              </Button>{" "}
-              <Button
-                variant="outline-success"
-                onClick={() => {
-                  props.history.push("/AboutMe");
-                }}
-              >
-                願意
-              </Button>{" "}
-            </div>
-          </div>
-        ) : (
-          <div className="TalkBox animate__animated animate__fadeIn">
-            拜託點我QQ...
-          </div>
-        )} */}
       </div>
     </>
   );

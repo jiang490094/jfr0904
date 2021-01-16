@@ -1,0 +1,165 @@
+.WebBack {
+  // width: 100vw;
+  // height: 100vh;
+  background-image: url("./img/backimg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.NavMargin {
+  margin: 7vh;
+}
+
+.AboutMySelf {
+  background-color: #fffae6;
+  padding: 5vh;
+  border-radius: 5px;
+  margin: 0px 5vh;
+  display: flex;
+  width: 100%;
+  text-align: center;
+}
+
+@media (max-width: 1024px) {
+  .AboutMySelf {
+    width: 90%;
+  }
+}
+
+@media (max-width: 600px) {
+  .AboutMySelf {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.MyPic {
+  width: 20%;
+  height: 250px;
+  background-image: url("./img/MyPic2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+@media (max-width: 1024px) {
+  .MyPic {
+    width: 35%;
+    height: 250px;
+  }
+}
+
+@media (max-width: 600px) {
+  .MyPic {
+    width: 80%;
+    height: 250px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+}
+
+.MyDescription {
+  width: 80%;
+  padding: 0 40px;
+  color: rgb(65, 65, 110);
+}
+
+@media (max-width: 1024px) {
+  .MyDescription {
+    width: 65%;
+    color: rgb(65, 65, 110);
+  }
+}
+
+@media (max-width: 600px) {
+  .MyDescription {
+    width: 100%;
+    color: rgb(65, 65, 110);
+  }
+}
+
+@media (max-width: 1024px) {
+  .Title {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 600px) {
+  .Title {
+    font-size: 18px;
+  }
+}
+
+.MyName {
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+  text-align: center;
+  color: rgb(65, 65, 110);
+}
+
+.CNName {
+  font-size: 24px;
+  font-weight: 400;
+  padding-right: 20px;
+  margin: auto;
+  border-bottom: 2px solid rgb(65, 65, 110);
+}
+
+@media (max-width: 1024px) {
+  .CNName {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 600px) {
+  .CNName {
+    font-size: 18px;
+  }
+}
+
+.Intro {
+  font-size: 16px;
+  font-weight: lighter;
+  line-height: 36px;
+  letter-spacing: 1px;
+  text-align: start;
+  padding-left: 15vh;
+}
+
+@media (max-width: 1024px) {
+  .Intro {
+    padding-left: 0vh;
+  }
+}
+
+@media (max-width: 600px) {
+  .Intro {
+    padding-left: 0vh;
+  }
+}
+
+.AboutBTN{
+  margin-top: 3vh;
+  justify-content: space-around;
+}
+
+.AboutBTN1{
+  margin: 3vh;
+}
+
+@media (max-width: 1024px) {
+  .AboutBTN1 {
+    margin: 0vh 2vh;
+  }
+}
+
+@media (max-width: 600px) {
+  .AboutBTN1 {
+    margin: 2vh 0vh;
+  }
+}

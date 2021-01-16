@@ -12,11 +12,11 @@ import {
 function MyNavbar(props) {
   return (
     <>
-      <div className="WebBack">
-        <Navbar className="Nav0" expand="lg">
+      {/* <div className="WebBack"> */}
+        <Navbar className="Nav0" expand="lg"  fixed="top">
           <div className="container Nav1">
             <div className="row">
-              <div>
+              <div className="Nav2">
                 <img
                   src="./tumblr_per90kGERz1wzvjnmo1_400.gif"
                   alt="動動倉鼠"
@@ -63,12 +63,7 @@ function MyNavbar(props) {
             </div>
           </div>
         </Navbar>
-      </div>
-      <img
-        src="./mouse.png"
-        alt="主角倉鼠"
-        className="MouseBlog animate__bounceInDown animate__animated"
-      />
+      {/* </div> */}
     </>
   );
 }

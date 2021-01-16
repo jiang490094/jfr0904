@@ -1,36 +1,27 @@
 // 其它要導入覆蓋掉原本的預設bootstrap樣式要放在這下面
 .Nav0 {
-  z-index: 99;
+ background-color: #dcfaf9;
 }
 
 .Nav1 {
   position: relative;
 }
 
+.Nav2{
+  margin-left: 5vh;
+}
+
 .Nav {
   right: 0px;
   position: absolute;
+  background-color: #dcfaf9;
+  padding: 0px 3vh;
+  border-radius: 5px;
 }
 
 .MoveNav {
   width: 5vh;
 }
 
-.WebBack {
-  width: 100vw;
-  height: 100vh;
-  background-image: url("./01073865290819.5d61d475f0072.jpg");
-  background-color: #6656f3;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
-  position: relative;
-}
 
-.MouseBlog{
-    height: 25vh;
-  position: absolute;
-  bottom: 5vh;
-  left: 5vh;
-}
+

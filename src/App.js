@@ -6,6 +6,7 @@ import MainContent from "./components/common/MainContent";
 import OpeningPage from "./components/OpeningPage";
 import AboutMe from "./components/AboutMe";
 import Portfolio from "./components/Portfolio";
+import Resume from "./components/Resume";
 
 function App(props) {
   
@@ -22,6 +23,9 @@ function App(props) {
             </Route>
             <Route path="/jfr0904/Portfolio">
               <Portfolio />
+            </Route>
+            <Route path="/jfr0904/Resume">
+              <Resume />
             </Route>
           </Switch>
         </MainContent>
