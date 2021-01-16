@@ -1,0 +1,104 @@
+.wrap {
+  position: relative;
+  width: 800px;
+  height: 400px;
+  background-color: #eee;
+  /* margin-bottom: 10vh; */
+  border-radius: 15px;
+}
+
+.btn_wrap {
+  text-align: center;
+  position: relative;
+  width: 800px;
+  margin: 3vh;
+}
+
+.wrap2 {
+  width: 100%;
+  position: relative;
+  background-color: #eee;
+}
+
+.box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  background-color: lightseagreen;
+  border-radius: 100px;
+}
+
+.blueCircle {
+  width: 20px;
+  height: 20px;
+  background-color: lightseagreen;
+  border-radius: 100px;
+}
+
+.box2 {
+  position: absolute;
+  top: 380px;
+  left: 780px;
+  width: 20px;
+  height: 20px;
+  background-color: rgb(240, 199, 86);
+  border-radius: 100px;
+}
+
+.yellowCircle {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(240, 199, 86);
+  border-radius: 100px;
+}
+
+.countdown {
+  width: 250px;
+  height: 80px;
+  /* background: white; */
+  font-size: 2em;
+  color: gray;
+
+  /* Centering everything */
+  position: absolute;
+  left: 11.5%;
+  top: 20%;
+  margin-left: -125px;
+  margin-top: -30px;
+
+  text-align: center;
+  line-height: 100px;
+
+  border-bottom: 5px solid #e54b6a42;
+}
+
+#gameRules {
+  width: 250px;
+  height: 80px;
+
+  position: absolute;
+  right: 4%;
+  top: calc(20% + 50px);
+  margin-left: -125px;
+  margin-top: -50px;
+
+  text-align: center;
+  line-height: 1.5;
+}
+
+.title {
+  font-size: 1.5rem;
+  color: gray;
+}
+
+.detailRules {
+  text-align: left;
+  margin-top: 15px;
+  line-height: 1.5;
+}
+
+.control {
+  display: flex;
+}
