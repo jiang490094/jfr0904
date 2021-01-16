@@ -7,6 +7,8 @@ import OpeningPage from "./components/OpeningPage";
 import AboutMe from "./components/AboutMe";
 import Portfolio from "./components/Portfolio";
 import Resume from "./components/Resume";
+import Contact from "./components/Contact";
+import Autobiography  from "./components/Autobiography ";
 
 function App(props) {
   
@@ -26,6 +28,12 @@ function App(props) {
             </Route>
             <Route path="/jfr0904/Resume">
               <Resume />
+            </Route>
+            <Route exact path="/jfr0904/Contact">
+              <Contact />
+            </Route>
+            <Route path="/jfr0904/Autobiography">
+              <Autobiography />
             </Route>
           </Switch>
         </MainContent>

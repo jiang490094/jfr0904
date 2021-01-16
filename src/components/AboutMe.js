@@ -30,7 +30,7 @@ function AboutMe(props) {
                     <div className="CNName">名稱：江芳如 / Leona Jiang</div>
                   </div>
                   <div className="Intro">
-                    出沒範圍： <br />
+                    出沒條件： <br />
                     廚房、毛絨動物、電腦
                   </div>
                   <div className="Intro">
