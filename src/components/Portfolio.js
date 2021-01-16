@@ -120,7 +120,7 @@ function Portfolio(props) {
                   <div className="PortfolioBTN1">
                     <Button
                       variant="outline-success"
-                      href="./Portfolio/Catch me if you can(JQ)/index.html.html"
+                      href="./Catch me if you can(JQ)/index.html.html"
                     >
                       查看Demo
                     </Button>{" "}
@@ -152,8 +152,9 @@ function Portfolio(props) {
                   <div className="PortfolioBTN1">
                     <Button
                       variant="outline-success"
-                      href="./Portfolio/DogCatStar(BS4)/index.html"
+                      href="./DogCatStar(BS4)/index.html"
                     >
+                    
                       查看Demo
                     </Button>{" "}
                   </div>
