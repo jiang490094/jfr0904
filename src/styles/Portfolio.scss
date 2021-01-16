@@ -1,7 +1,19 @@
+.WorkTitle {
+  width: 100%;
+  margin: 0vh 5vh -5px 5vh;
+  text-align: center;
+  background-color: rgb(65, 65, 110);
+  border-radius: 5px 5px 0px 0px;
+  padding-top: 5vh;
+  color: #fffae6;
+  border-bottom: 1px solid rgb(65, 65, 110);
+  z-index: 99;
+}
+
 .Portfolio {
   background-color: #fffae6;
-  padding: 5vh;
   border-radius: 5px;
+  padding: 5vh;
   margin: 0px 5vh 5vh 5vh;
   display: flex;
   width: 100%;
@@ -44,11 +56,9 @@
 
 .WorksPic {
   width: 100%;
-  margin: auto; 
+  margin: auto;
   border-radius: 5px;
 }
-
-
 
 .WorksTitle {
   font-size: 24px;
@@ -87,6 +97,11 @@
   }
 }
 
+.WorkBTN{
+  width: 100%;
+  text-align: center;
+}
+
 .PortfolioBTN1 {
   width: 100%;
   text-align: center;
@@ -96,12 +111,12 @@
 
 @media (max-width: 1024px) {
   .AboutBTN1 {
-    margin: 0vh 2vh;
+    margin: 2vh;
   }
 }
 
 @media (max-width: 600px) {
   .AboutBTN1 {
-    margin: 2vh 0vh;
+    margin: 2vh;
   }
 }

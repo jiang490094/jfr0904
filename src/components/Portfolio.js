@@ -21,6 +21,9 @@ function Portfolio(props) {
           <div className="container ">
             <div className="row">
               <div className="NavMargin"></div>
+              {/* <div className="WorkTitle">
+                <h2>作品欄</h2>
+              </div> */}
 
               <div className="Portfolio">
                 <div className="WorksDescription col-lg-5 col-md-5">
@@ -155,6 +158,29 @@ function Portfolio(props) {
                     </Button>{" "}
                   </div>
                 </div>
+              </div>
+
+              <div
+                className="WorkBTN"
+              >
+                <Button
+                  className="AboutBTN1"
+                  variant="warning"
+                  onClick={() => {
+                    props.history.push("/jfr0904/Resume");
+                  }}
+                >
+                  前往履歷
+                </Button>{" "}
+                <Button
+                  className="AboutBTN1"
+                  variant="primary"
+                  onClick={() => {
+                    props.history.push("/jfr0904/Contact");
+                  }}
+                >
+                  與我聯繫
+                </Button>{" "}
               </div>
             </div>
           </div>
