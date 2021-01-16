@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import { withRouter } from "react-router-dom";
 import {
   Navbar,
   Nav,
@@ -68,4 +69,4 @@ function MyNavbar(props) {
   );
 }
 
-export default MyNavbar;
+export default withRouter(MyNavbar);

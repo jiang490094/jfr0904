@@ -31,7 +31,7 @@ function AboutMe(props) {
                   </div>
                   <div className="Intro">
                     出沒範圍： <br />
-                    廚房、毛絨動物旁、電腦周圍
+                    廚房、毛絨動物、電腦
                   </div>
                   <div className="Intro">
                     描述： <br />
