@@ -3,7 +3,7 @@ import MyNavbar from "./common/MyNavbar";
 import { withRouter } from "react-router-dom";
 
 
-function Portfolio(props) {
+function Contact(props) {
   return (
     <>
       123
@@ -11,4 +11,4 @@ function Portfolio(props) {
   );
 }
 
-export default withRouter(Portfolio);
+export default withRouter(Contact);

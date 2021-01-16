@@ -39,6 +39,7 @@ function MyNavbar(props) {
                   >
                     About
                   </Nav.Link>
+
                   <Nav.Link
                     as={NavLink}
                     style={{ color: "#41416e" }}
@@ -46,17 +47,19 @@ function MyNavbar(props) {
                   >
                     Portfolio
                   </Nav.Link>
+
                   <Nav.Link
                     as={NavLink}
                     style={{ color: "#41416e" }}
-                    href="/jfr0904/Resume"
+                    to="/jfr0904/Resume"
                   >
                     Resume
                   </Nav.Link>
+
                   <Nav.Link
                     as={NavLink}
                     style={{ color: "#41416e" }}
-                    href="/jfr0904/Contact"
+                    to="/jfr0904/Contact"
                   >
                     Contact
                   </Nav.Link>
