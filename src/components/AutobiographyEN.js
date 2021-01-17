@@ -21,7 +21,7 @@ function AutobiographyEN(props) {
           <div className="container ">
             <div className="row">
               <div className="NavMargin"></div>
-              <div className="AboutMySelf">
+              <div className="AboutMySelf AboutMySelfEN">
                 <div className="MyDescriptionR">
                   <div className="MyName">
                     <div className="CNName">自傳Autobiography </div>

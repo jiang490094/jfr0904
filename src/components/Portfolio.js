@@ -71,7 +71,7 @@ function Portfolio(props) {
                   <div className="WorksDetail">
                     使用技術：
                     <br />
-                    React、XD、HTML、SCSS、Bootstrap、MySQL、 Node.
+                    React、XD、HTML5、SCSS、Bootstrap、MySQL、 Node.
                     js、Redux、Google Login API、react-share
                   </div>
                   <div className="WorksDetail">

@@ -165,6 +165,18 @@
   }
 }
 
-.AboutMySelf2{
-  margin: auto;
+// .AboutMySelf2{
+//   margin: auto;
+// }
+
+@media (max-width: 1024px) {
+  .AboutMySelf2 {
+    margin: auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .AboutAboutMySelf2BTN1 {
+    margin: auto;
+  }
 }

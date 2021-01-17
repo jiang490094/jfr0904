@@ -45,7 +45,7 @@ function Resume(props) {
 
                   <div className="Intro Intro2">
                     媒體設計： <br />
-                    Photoshop、Adobe XD{" "}
+                    Photoshop、Adobe XD、Adobe illustrator{" "}
                   </div>
 
                   <div className="Intro Intro2">
@@ -84,7 +84,7 @@ function Resume(props) {
                   <div className="Intro Intro2">
                     LINE TAXI | 2019.03 to 2019.11
                     <br />
-                    入職3月個月內降低 CPA 50%，主要管理廣告部分
+                    入職3月個月內降低 CPA 50%，主要管理廣告部分(FB Ad、SEO、GDN、關鍵字)
                     <br />
                     於公司整併時，接手廣告、記者會、社群、異業洽談等
                   </div>
