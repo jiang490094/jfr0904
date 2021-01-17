@@ -118,10 +118,7 @@ function Portfolio(props) {
                     className="WorksPic"
                   ></img>
                   <div className="PortfolioBTN1">
-                    <Button
-                      variant="outline-success"
-                      href="https://jiang490094.github.io/jfr0904/Portfolio/Catch me if you can(JQ)/index.html"
-                    >
+                    <Button variant="outline-success" href="./Catch/index.html">
                       查看Demo
                     </Button>{" "}
                   </div>
@@ -152,18 +149,15 @@ function Portfolio(props) {
                   <div className="PortfolioBTN1">
                     <Button
                       variant="outline-success"
-                      href="https://jiang490094.github.io/jfr0904/Portfolio/DogCatStar(BS4)/index.html"
+                      href="./DogCatStar/index.html"
                     >
-                    
                       查看Demo
                     </Button>{" "}
                   </div>
                 </div>
               </div>
 
-              <div
-                className="WorkBTN"
-              >
+              <div className="WorkBTN">
                 <Button
                   className="AboutBTN1"
                   variant="warning"
