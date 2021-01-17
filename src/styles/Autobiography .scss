@@ -1,0 +1,16 @@
+.Intro3{
+    margin-top: 3vh;
+    padding-right: 15vh;
+}
+
+@media (max-width: 1024px) {
+    .Intro3 {
+      padding-right: 0vh;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .Intro3 {
+      padding-right: 0vh;
+    }
+  }

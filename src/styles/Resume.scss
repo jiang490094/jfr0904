@@ -1,0 +1,72 @@
+.MyDescriptionR {
+  width: 100%;
+}
+
+.CNName2 {
+  margin: 0px;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  padding-left: 1vh;
+  background-color: rgb(65, 65, 110);
+  color: white;
+  border-radius: 0px 0px 5px 0px;
+}
+
+@media (max-width: 1024px) {
+  .CNName2 {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+  }
+}
+
+@media (max-width: 600px) {
+  .CNName2 {
+    font-size: 14px;
+    margin-bottom: 0vh;
+  }
+}
+
+.Intro2 {
+  font-size: 16px;
+  font-weight: lighter;
+  line-height: 24px;
+  letter-spacing: 1px;
+  text-align: start;
+  padding-left: 15vh;
+  margin-bottom: 3vh;
+}
+
+@media (max-width: 1024px) {
+  .Intro2 {
+    padding-left: 0vh;
+    line-height: 24px;
+  }
+}
+
+@media (max-width: 600px) {
+  .Intro2 {
+    font-size: 12px;
+    padding-left: 0vh;
+    line-height: 18px;
+  }
+}
+
+.IntroTitle {
+  text-align: start;
+  padding-left: 15vh;
+}
+
+@media (max-width: 1024px) {
+  .IntroTitle {
+    padding-left: 0vh;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 600px) {
+  .IntroTitle {
+    font-size: 18px;
+    padding-left: 0vh;
+    line-height: 24px;
+  }
+}

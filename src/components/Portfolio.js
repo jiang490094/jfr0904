@@ -49,7 +49,8 @@ function Portfolio(props) {
                   <div className="PortfolioBTN1">
                     <Button
                       variant="outline-success"
-                      href="https://github.com/jiang490094/jfr0904"
+                      href="https:/github.com/jiang490094/jfr0904"
+                      target="_blank"
                     >
                       查看Demo
                     </Button>{" "}
@@ -89,6 +90,7 @@ function Portfolio(props) {
                     <Button
                       variant="outline-success"
                       href="https://github.com/jiang490094/StrayMao-Front-end"
+                      target="_blank"
                     >
                       查看Demo
                     </Button>{" "}
@@ -118,7 +120,11 @@ function Portfolio(props) {
                     className="WorksPic"
                   ></img>
                   <div className="PortfolioBTN1">
-                    <Button variant="outline-success" href="./Catch/index.html">
+                    <Button
+                      variant="outline-success"
+                      href="https://jiang490094.github.io/jfr0904/Portfolio/Catch/index.html"
+                      target="_blank"
+                    >
                       查看Demo
                     </Button>{" "}
                   </div>
@@ -149,7 +155,8 @@ function Portfolio(props) {
                   <div className="PortfolioBTN1">
                     <Button
                       variant="outline-success"
-                      href="./DogCatStar/index.html"
+                      href="https://jiang490094.github.io/jfr0904/Portfolio/DogCatStar/index.html"
+                      target="_blank"
                     >
                       查看Demo
                     </Button>{" "}
