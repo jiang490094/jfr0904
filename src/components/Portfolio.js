@@ -42,7 +42,7 @@ function Portfolio(props) {
                 </div>
                 <div className="Block  col-lg-6 col-md-6 ">
                   <img
-                    alt="個人網站"
+                    alt="個人網站喔"
                     src="/jfr0904/MyWeb.jpg"
                     className="WorksPic"
                   ></img>
