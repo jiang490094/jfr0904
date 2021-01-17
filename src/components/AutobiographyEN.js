@@ -56,11 +56,12 @@ function AutobiographyEN(props) {
                     time,how to manage time wisely had became a vital issue .
                     <br />
                     <div className="NavMargin"></div>
-                    Stress Resistance From Marketing specialist to front - end
-                    engineer is a very different challenge. 5 days before the
-                    final presentation,my hard disk broke. i had to to fix my
-                    computer and redo a lot of work. I learned that backup from
-                    time to time to Github is important
+                    Stress Resistance
+                    <br /> From Marketing specialist to front - end engineer is
+                    a very different challenge. 5 days before the final
+                    presentation,my hard disk broke. i had to to fix my computer
+                    and redo a lot of work. I learned that backup from time to
+                    time to Github is important
                     <br />
                     <br />
                     I have the considerate of designer; the Observation of
@@ -81,7 +82,6 @@ function AutobiographyEN(props) {
                     >
                       上一頁
                     </Button>{" "}
-                    
                     <Button
                       className="AboutBTN1"
                       variant="outline-success"
