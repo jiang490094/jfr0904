@@ -49,7 +49,7 @@ function Portfolio(props) {
                   <div className="PortfolioBTN1">
                     <Button
                       variant="outline-success"
-                      href="https:/github.com/jiang490094/jfr0904"
+                      href="https://github.com/jiang490094/jfr0904"
                       target="_blank"
                     >
                       查看Demo
