@@ -44,7 +44,7 @@ function AutobiographyEN(props) {
                     <br />
                     As a leader of the group in the project, I know how to
                     arrange work properly and co-work with my colleague. I also
-                    wrote a guide of Redux for my team to keep everyone up.{" "}
+                    wrote a guide of Redux for my team to keep everyone up.
                     <br />
                     <div className="NavMargin"></div>
                     Time Management
@@ -53,7 +53,7 @@ function AutobiographyEN(props) {
                     challenge of final project. While
                     designing,communicating,coding,reviewing,paper writing ,even
                     powerpoint designing are need to be completed in a certain
-                    time,how to manage time wisely had became a vital issue .{" "}
+                    time,how to manage time wisely had became a vital issue .
                     <br />
                     <div className="NavMargin"></div>
                     Stress Resistance From Marketing specialist to front - end
@@ -81,15 +81,7 @@ function AutobiographyEN(props) {
                     >
                       上一頁
                     </Button>{" "}
-                    <Button
-                      className="AboutBTN1"
-                      variant="outline-success"
-                      onClick={() => {
-                        props.history.push("/jfr0904/Autobiography");
-                      }}
-                    >
-                      EN Autobiography
-                    </Button>{" "}
+                    
                     <Button
                       className="AboutBTN1"
                       variant="outline-warning"
