@@ -65,6 +65,7 @@ function Autobiography(props) {
                     <br />
                     我始終相信,過程,造就必然。
                     <br />
+                    <br />
                     在這5個月我快速成長，學習了所有關於前端的知識，不論是CSS切版、JavaScript
                     動態效果、甚至前端框架React.js的應用，現在已經是一個可以獨立寫出網頁的前端工程師。
                   </div>
