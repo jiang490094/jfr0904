@@ -34,29 +34,25 @@ function Autobiography(props) {
                     <br />
                     社會新鮮人階段，從事行銷並在3個月內降底 CPA 50%。
                     <br />
-                    學生時期在青春設計節獲得前10名。 <br />Code can do everything, I
-                    can do anything. 這是我對程式碼的認知，也是我對自己的期許
+                    學生時期在青春設計節獲得前10名。 <br />
+                    Code can do everything, I can do anything.
+                    這是我對程式碼的認知，也是我對自己的期許
                     <br />
                     <div className="NavMargin"></div>
-
                     判斷力與執行力
                     <br />
                     在大專時有幸被組員信任，被推舉為組長。在判斷每個
                     階段的應做事項、哪些觀念與流程較難學習後，將事項
                     分割成小塊，讓組員認領，並撰寫redux教學流程，讓
                     大家快速學習。 <br />
-
                     <div className="NavMargin"></div>
-
                     時間控管
                     <br />
                     課程從一開始的HTML到最後的react.js，一步步變難而
                     大專也接踵而至。在設計、組員師長溝通、大專撰寫、
                     複習課程、企畫書撰寫、PPT製作一併出現時，如何安排
                     時間就顯得尤其重要了。 <br />
-
                     <div className="NavMargin"></div>
-
                     抗壓性
                     <br />
                     從行銷轉職到前端工程師是一個截然不同的挑戰。課表上
@@ -70,9 +66,8 @@ function Autobiography(props) {
                     我始終相信,過程,造就必然。
                     <br />
                     在這5個月我快速成長，學習了所有關於前端的知識，不論是CSS切版、JavaScript
-                    動態效果、甚至前端框架
-                    <br />
-                    React.js的應用，現在已經是一個可以獨立寫出網頁前端 junior。
+                    動態效果、甚至前端框架React.js的應用，現在已經是一個可以獨立寫出網頁前端
+                    junior。
                   </div>
 
                   <div className="AboutBTN">
