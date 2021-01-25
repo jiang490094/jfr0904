@@ -117,7 +117,7 @@ function Portfolio(props) {
                   <div className="WorksDetail">
                     使用技術：
                     <br />
-                    React、HTML5、SCSS、 React Bootstrap
+                    HTML、CSS、JavaScript、jQuery
                   </div>
                 </div>
                 <div className="Block  col-lg-6 col-md-6 ">
